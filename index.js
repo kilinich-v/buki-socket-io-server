@@ -4,7 +4,7 @@ const http = require('http');
 const socketIo = require('socket.io');
 
 const port = process.env.PORT || 3001;
-const index = require('./routes/index');
+const index = require('./routes/routes');
 
 const app = express();
 
